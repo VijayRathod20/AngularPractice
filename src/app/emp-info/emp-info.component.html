@@ -1,0 +1,11 @@
+<h1>Employee Details</h1>
+<div class="emp">
+<button type="button" name="btn" (click)="getInfoFromServiceClass1()">Employee1</button>
+<h2 *ngFor="let info of infoRecive1">
+    {{info}}
+</h2><br>
+<button type="button" name="btn" (click)="getInfoFromServiceClass2()">Employee2</button>
+<h2 *ngFor="let info of infoRecive2">
+    {{info}}
+</h2>
+</div>
